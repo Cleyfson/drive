@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   AiOutlineMenu,
   AiOutlineClose,
@@ -8,26 +8,38 @@ import {
 import Logo from '../../images/logo.png';
 
 const Navbar = () => {
+  const [nav, setNav] = useState(false);
+
   return (
-    <header>
-      <img src={Logo} alt='company logo' />
-      <nav>
-        <li>
-          <a href='/'>Learn More</a>
+    <header className='nav-bar'>
+      <img className='nav-bar__logo' src={Logo} alt='company logo' />
+      <nav className={nav ? 'nav-bar__list' : 'nav-bar__list active'}>
+        <li className='nav-bar__item'>
+          <a className='nav-bar__link' href='/'>
+            Learn More
+          </a>
         </li>
-        <li>
-          <a href='/'>Log in</a>
+        <li className='nav-bar__item'>
+          <a className='nav-bar__link' href='/'>
+            Log in
+          </a>
         </li>
-        <li>
-          <a href='/'>Sign up</a>
+        <li className='nav-bar__item'>
+          <a className='nav-bar__link' href='/'>
+            Sign up
+          </a>
         </li>
-        <li>
-          <AiOutlineSearch />
+        <li className='nav-bar__item'>
+          <AiOutlineSearch size={25} style={{ marginTop: '6px' }} />
         </li>
-        <li>
-          <AiOutlineUser />
+        <li className='nav-bar__item'>
+          <AiOutlineUser size={25} style={{ marginTop: '6px' }} />
         </li>
       </nav>
+
+      <div onClick={() => setNav(!nav)} className='menu'>
+        {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
+      </div>
     </header>
   );
 };
