@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <header className='nav-bar'>
       <img className='nav-bar__logo' src={Logo} alt='company logo' />
-      <nav className={nav ? 'nav-bar__list' : 'nav-bar__list active'}>
+      <nav className={nav ? 'nav-bar__list active' : 'nav-bar__list'}>
         <li className='nav-bar__item'>
           <a className='nav-bar__link' href='/'>
             Learn More

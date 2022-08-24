@@ -1,0 +1,14 @@
+.find {
+  max-width: 65em;
+  margin: auto;
+
+  &__title {
+    font-size: 4rem;
+    text-align: center;
+    padding: 2em;
+  }
+
+  &__text p {
+    text-align: center;
+  }
+}

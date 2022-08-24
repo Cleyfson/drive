@@ -18,7 +18,7 @@ const Hero = () => {
           <input type='date' />
         </div>
         <div className='hero__search'>
-          <AiOutlineSearch />
+          <AiOutlineSearch className='hero__icon' />
           <button className='hero__btn'>search for cars</button>
         </div>
       </form>
