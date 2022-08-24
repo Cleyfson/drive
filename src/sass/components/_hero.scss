@@ -9,12 +9,35 @@
   &__form {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     align-items: center;
-    width: 43.75em;
+    gap: 1em;
+    width: 100%;
+    max-width: 43.75em;
     margin: auto;
     margin-top: 10%;
     padding: 0.375em 0.9em;
     background-color: rgba(247, 247, 247, 0.9);
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 8px 24px;
+    border-radius: 1.56em;
+
+    @media screen and (max-width: 720px) {
+      flex-wrap: wrap;
+    }
+
+    & label {
+      font-size: 1rem;
+      padding-bottom: 0.125em;
+    }
+  }
+
+  &__text,
+  &__initial-date,
+  &__final-date {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__btn {
+    display: none;
   }
 }
