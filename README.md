@@ -37,8 +37,8 @@ $ cd drive
 $ npm install
 
 # Execute the appliction with this command
-$ npm start
-$ yarn start
+$ npm dev
+$ yarn dev
 
 # The server will start in the port:3000
 
