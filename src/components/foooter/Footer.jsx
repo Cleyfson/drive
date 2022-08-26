@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='footer'>
       <div className='footer__container'>
         <img className='footer__img' src={Logo} alt='' />
-        <button className='footer__btn'>Share A Car</button>
+        <button className='footer__btn'>Compartilhe um carro</button>
       </div>
     </div>
   );

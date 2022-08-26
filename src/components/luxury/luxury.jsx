@@ -4,10 +4,13 @@ const luxury = () => {
   return (
     <div className='luxury'>
       <div className='luxury__heading'>
-        <h1 className='luxury__title'>Luxury Selection</h1>
+        <h1 className='luxury__title'>Seleção de luxo</h1>
         <div className='luxury__text'>
           <p>
-            <span>Select from the top luxury vehicles to roll in style</span>
+            <span>
+              Selecione entre os principais veículos de luxo para rodar em
+              grande estilo
+            </span>
           </p>
         </div>
       </div>

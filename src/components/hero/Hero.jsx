@@ -6,20 +6,20 @@ const Hero = () => {
     <div className='hero'>
       <form className='hero__form' action=''>
         <div className='hero__text'>
-          <label>Where</label>
-          <input type='text' placeholder='search location' />
+          <label>Local</label>
+          <input type='text' placeholder='local de pesquisa' />
         </div>
         <div className='hero__initial-date'>
-          <label>From</label>
+          <label>Inicio</label>
           <input type='date' />
         </div>
         <div className='hero__final-date'>
-          <label>Until</label>
+          <label>Final</label>
           <input type='date' />
         </div>
         <div className='hero__search'>
           <AiOutlineSearch className='hero__icon' />
-          <button className='hero__btn'>search for cars</button>
+          <button className='hero__btn'>busque carros</button>
         </div>
       </form>
     </div>

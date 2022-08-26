@@ -12,10 +12,10 @@ const Find = () => {
   return (
     <div className='find'>
       <div className='find__heading'>
-        <h1 className='find__title'>find your drive</h1>
+        <h1 className='find__title'>encontre seu carro</h1>
         <div className='find__text'>
           <p>
-            <span>Explore the world's largest car sharing marketplace</span>
+            <span>Explore o maior mercado de venda de carros do mundo</span>
           </p>
         </div>
       </div>

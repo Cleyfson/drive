@@ -16,17 +16,17 @@ const Navbar = () => {
       <nav className={nav ? 'nav-bar__list active' : 'nav-bar__list'}>
         <li className='nav-bar__item'>
           <a className='nav-bar__link' href='/'>
-            Learn More
+            Saber mais
           </a>
         </li>
         <li className='nav-bar__item'>
           <a className='nav-bar__link' href='/'>
-            Log in
+            Entrar
           </a>
         </li>
         <li className='nav-bar__item'>
           <a className='nav-bar__link' href='/'>
-            Sign up
+            Cadastre-se
           </a>
         </li>
         <li className='nav-bar__item'>

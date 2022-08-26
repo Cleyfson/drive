@@ -9,13 +9,13 @@ const Driver = () => {
       </div>
       <div className='driver__right'>
         <h2 className='driver__title'>
-          Find the perfect car <span>to try before you buy</span>
+          Encontre o carro perfeito <span>experimente antes de comprar</span>
         </h2>
         <p className='driver__description'>
-          Make sure your future wheels work well with your lifestyle by taking
-          your time in the driver's seat.
+          Certifique-se de que seu futuro veiculo funcione bem com seu estilo de
+          vida, tomando seu tempo no banco do motorista.
         </p>
-        <button className='driver__btn'>Browse Cars</button>
+        <button className='driver__btn'>Procurar carros</button>
       </div>
     </div>
   );
