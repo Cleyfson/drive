@@ -1,12 +1,13 @@
-## :desktop_computer: About the project:
+## About the project:
 
-## :art: Layout of the Application:
+drive is an application made in order to develop and deepen my skills with React and Sass. Applying in practice the knowledge for the development of a car sales application.
 
-## :rocket: Launching the App:
+## Layout of the Application:
+
+## Launching the App:
 
 The application only has a frontend page:
-
-:bulb: But, is required that you use a server to have a most flowable experience.
+But, is required that you use a server to have a most flowable experience.
 
 ### Pre requirements
 
