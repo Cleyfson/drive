@@ -4,7 +4,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
 import 'swiper/css';
-import 'swiper/css/navigation';
+// import 'swiper/css/navigation';
+// import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 const Find = () => {
   return (
@@ -38,8 +40,10 @@ const Find = () => {
               slidesPerView: 5,
             },
           }}
-          onSlideChange={() => console.log('slide change')}
-          onSwiper={(swiper) => console.log(swiper)}>
+          pagination={{ clickable: true }}
+          scrollbar={{ draggable: true }}
+          onSwiper={(swiper) => console.log(swiper)}
+          onSlideChange={() => console.log('slide change')}>
           <SwiperSlide>
             <Card
               img='https://images.unsplash.com/photo-1599912027806-cfec9f5944b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGF1ZGl8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60'
