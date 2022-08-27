@@ -23,7 +23,7 @@ But, is required that you use a server to have a most flowable experience.
 
 </br>
 
-### :gear: Starting the App:
+### Starting the App:
 
 ```bash
 
@@ -46,7 +46,7 @@ $ yarn dev
 
 ---
 
-## :man_technologist: Used Technologies:
+## Used Technologies:
 
 Those following tools were used in the project development:
 
