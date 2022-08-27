@@ -40,7 +40,21 @@ $ npm install
 $ npm run dev
 $ yarn dev
 
-# The server will start in the port:3000
+# The server will start in the port:
+# Clone the Repository
+$ git clone https://github.com/Cleyfson/drive.git
+
+# Enter the poject folder in the Terminal
+$ cd drive
+
+# Install all the dependencies
+$ npm install
+
+# Execute the appliction with this command
+$ npm run dev
+$ yarn dev
+
+# The server will start in the port:5173
 
 ```
 
