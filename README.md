@@ -2,8 +2,6 @@
 
 drive is an application made in order to develop and deepen my skills with React and Sass. Applying in practice the knowledge for the development of a car sales application.
 
-## Layout of the Application:
-
 ## Launching the App:
 
 The application only has a frontend page:
