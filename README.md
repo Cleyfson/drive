@@ -48,7 +48,7 @@ $ yarn dev
 
 Those following tools were used in the project development:
 
-### **Application** ([ReactJS](https://reactjs.org/))
+### **Application** ([ReactJS](https://reactjs.org/) + [Sass](https://sass-lang.com/))
 
 - **[Swiper](https://swiperjs.com/)**
 - **[ReactDom](https://reactjs.org/docs/react-dom.html)**
