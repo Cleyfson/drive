@@ -52,5 +52,6 @@ Those following tools were used in the project development:
 
 - **[Swiper](https://swiperjs.com/)**
 - **[ReactDom](https://reactjs.org/docs/react-dom.html)**
+- **[ReactIcons](https://react-icons.github.io/react-icons/)**
 
 </br>
