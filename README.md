@@ -4,6 +4,10 @@ drive is an application made in order to develop and deepen my skills with React
 
 ## Layout of the Application:
 
+  <img alt="email" src="./assets/images/driver.png">
+  <img alt="email" src="./assets/images/driver1.png">
+  <img alt="email" src="./assets/images/driver2.png">
+
 ## Launching the App:
 
 The application only has a frontend page:
