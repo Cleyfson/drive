@@ -27,7 +27,7 @@ But, is required that you use a server to have a most flowable experience.
 
 </br>
 
-### :gear: Starting the App:
+### Starting the App:
 
 ```bash
 
@@ -44,19 +44,20 @@ $ npm install
 $ npm run dev
 $ yarn dev
 
-# The server will start in the port:3000
+# The server will start in the port:5173
 
 ```
 
 ---
 
-## :man_technologist: Used Technologies:
+## Used Technologies:
 
 Those following tools were used in the project development:
 
-### **Application** ([ReactJS](https://reactjs.org/))
+### **Application** ([ReactJS](https://reactjs.org/) + [Sass](https://sass-lang.com/))
 
 - **[Swiper](https://swiperjs.com/)**
 - **[ReactDom](https://reactjs.org/docs/react-dom.html)**
+- **[ReactIcons](https://react-icons.github.io/react-icons/)**
 
 </br>
